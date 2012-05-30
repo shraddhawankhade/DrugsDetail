@@ -1,0 +1,49 @@
+<!--
+	filename: Registration.html
+	author: Snehal
+	date-created: 23 feb 2012
+	date-updated-last: 
+-->
+
+<!DOCTYPE html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Registration Form</title>
+</head>
+<style type="text/css">
+body{
+font-family:Arial;
+font-size:14px;
+}
+label{
+font-weight:bold;
+width:100px;
+font-size:14px;
+}
+</style>
+
+<body>
+<br/><br/><br/>
+<div align="center">
+<div style="width:300px; border: solid 1px #333333;" align="left">
+<div style="background-color:#333333; color:#FFFFFF; padding:4px;"><center><b>Registration Form</b></center></div>
+<div style="margin:30px">
+
+<form name="Registration" action="RegistrationDB.php" method="post">
+<label>UserName</label>&nbsp;&nbsp;<input type="text" name="UserName" /><br /><br />
+<label>FirstName</label>&nbsp;&nbsp;<input type="text" name="FirstName" /><br /><br />
+<label>LastName</label>&nbsp;&nbsp;<input type="text" name="LastName" /><br /><br />
+<label>Gender</label>&nbsp;&nbsp;<input type="radio" name="Gender" value="Male"/>Male
+<input type="radio" name="Gender" value="Female"/>Female<br/><br/>
+<label>Password</label>&nbsp;&nbsp;<input type="password" name="Password" /><br/><br />
+<label>Status</label>&nbsp;&nbsp;<input type="radio" name="Status" value="Admin"/>Admin
+<input type="radio" name="Status" value="User"/>User<br/><br/>
+<input type="submit" value=" Submit "/><br />
+</form>
+
+</div>
+</div>
+<br/><br/>
+</div>
+</body>
+</html>
