@@ -1,0 +1,4 @@
+DrugsDetail
+===========
+
+DrugsDetail
