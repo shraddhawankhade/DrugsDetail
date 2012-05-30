@@ -1,10 +1,3 @@
-<!--
-	filename: AcceptDrugsRequest.php
-	author: Snehal
-	date-created: 23 feb 2012
-	date-updated-last:5 March 2012
--->
-
 <html>
 <head>
 <title>View Drugs Request</title>
